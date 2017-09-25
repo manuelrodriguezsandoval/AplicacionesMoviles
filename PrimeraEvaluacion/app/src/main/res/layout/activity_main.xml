@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="inacaptemuco.cl.primeraevaluacion.MainActivity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tp_titulo_aplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:text="@string/titulo_aplicacion"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+<TextView
+
+        android:id="@+id/etiqueta_patente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Label_patente"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txt_patente"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:inputType="textCapCharacters"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca:"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/txt_marca"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Label_modelo"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txt_modelo"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Label_año"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txt_anio"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Label_UF"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txt_uf"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:inputType="number"/>
+    <Button
+    android:id="@+id/btn_calcular"
+    android:text="@string/btn_ingreso"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+    </ScrollView>
