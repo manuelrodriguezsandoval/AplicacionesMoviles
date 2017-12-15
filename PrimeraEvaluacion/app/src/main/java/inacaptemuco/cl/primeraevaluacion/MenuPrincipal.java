@@ -10,8 +10,8 @@ import android.widget.ImageView;
 
 public class MenuPrincipal extends AppCompatActivity {
 
-    ImageView bienvenida;
-    Button ingreso;
+        ImageView bienvenida;
+        Button ingreso;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

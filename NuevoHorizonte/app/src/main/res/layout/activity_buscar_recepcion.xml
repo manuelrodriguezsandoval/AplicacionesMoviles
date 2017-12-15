@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="cl.inacap.nuevohorizonte.MainActivity"
+        android:weightSum="1">
+
+
+        <EditText
+            android:id="@+id/txt_busqueda"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:hint="ingrese id para búsqueda"
+            android:inputType="number"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_buscarRecepcion"
+            android:layout_width="164dp"
+            android:layout_height="34dp"
+            android:background="@android:color/background_light"
+            android:backgroundTint="@android:color/background_light"
+            android:text="Buscar"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:id="@+id/etiqueta_factura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese numero de factura"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_factura"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:inputType="number"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/etiqueta_monto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Label_monto"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_monto"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/etiqueta_fecha_recepcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Label_fecha_recepción"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_fecha_recepcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.22"
+            android:background="@android:color/background_light"
+            android:backgroundTint="@android:color/background_light"
+            android:focusable="false"
+            android:text="formato dd/mm/año "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/etiqueta_fecha_vencimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Label_fecha_vencimiento"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_fecha_vencimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:focusable="false"
+            android:text="formato dd/mm/año" />
+
+        <TextView
+            android:id="@+id/etiqueta_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Label_usuario"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_usuario"
+            android:layout_width="302dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_weight="0.37" />
+
+        <TextView
+            android:id="@+id/etiqueta_proveedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Label_proveedor"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_proveedor"
+            android:layout_width="304dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_weight="0.36" />
+
+        <TextView
+            android:id="@+id/etiqueta_observacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Label_observaciones"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_observaciones"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:backgroundTint="@android:color/background_light"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:weightSum="1">
+
+
+            <Button
+                android:id="@+id/btn_actualizar"
+                android:layout_width="164dp"
+                android:layout_height="40dp"
+                android:background="@android:color/background_light"
+                android:text="Actualizar"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_eliminar"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.78"
+                android:backgroundTint="@android:color/background_light"
+                android:text="Eliminar"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -2,23 +2,6 @@
     <string name="app_name">Chile Vehículos</string>
     <string name="titulo_aplicacion">Ingrese Información del vehículo</string>
     <string name="Label_patente">Patente:</string>
-    <string-array name="Label_marca"></string-array>
-    <string name="resultados_marca">
-        <item> Seleccionar Marca</item>
-        <item> Kia</item>
-        <item> Ferrari</item>
-        <item> Audi</item>
-        <item> Mercedes-Benz</item>
-        <item> BMW</item>
-        <item> Porsche</item>
-        <item> Chevrolet</item>
-        <item> Ford</item>
-        <item> VolksWagen</item>
-        <item> Nissan</item>
-        <item> Toyota</item>
-        <item> Honda</item>
-        <item> Mazda</item>
-    </string>
     <string name="Label_modelo">Modelo:</string>
     <string name="Label_año">Año:</string>
     <string name="Label_UF">Valor UF:</string>

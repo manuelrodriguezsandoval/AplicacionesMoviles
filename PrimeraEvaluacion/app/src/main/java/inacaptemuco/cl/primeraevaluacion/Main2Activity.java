@@ -48,19 +48,19 @@ public class Main2Activity extends AppCompatActivity {
         marca.setText(marcaRecibida);
         modelo.setText(modeloRecibido);
         anio.setText(String.valueOf(anioRecibido));
-        valoruf.setText(String.valueOf(ufRecibida));
+        valoruf.setText("$ "+String.valueOf(ufRecibida));
 
-        String antiguedadVehiculo = acciones.antiguedad(anioRecibido);
+        String antiguedadVehiculo = acciones.calcularAntiguedad(anioRecibido);
         antiguedad.setText(antiguedadVehiculo);
 
-        String asegurable = acciones.seguro(anioRecibido);
+        String asegurable = acciones.calcularSeguro(anioRecibido);
         if (asegurable.equals("Es asegurable")) {
             estado.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.asegurado));
         } else {
             estado.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.noasegurado));
         }
 
-        String ResulValorSeguro = acciones.MostrarValorSeguro(ufRecibida, anioRecibido);
+        String ResulValorSeguro = acciones.calcularValorSeguro(ufRecibida, anioRecibido);
         valorseguro.setText(ResulValorSeguro);
 
         mostrarImagen(marcaRecibida);
@@ -76,7 +76,7 @@ public class Main2Activity extends AppCompatActivity {
             case "Ferrari":
                 resultadoImagen.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ferrari));
                 break;
-            case "Audi":
+            case "AUDI":
                 resultadoImagen.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.audi));
                 break;
             case "Mercedes-Benz":

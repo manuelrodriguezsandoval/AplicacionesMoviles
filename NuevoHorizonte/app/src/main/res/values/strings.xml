@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="Label_factura">Número de factura:</string>
+    <string name="Label_monto">Monto:</string>
+    <string name="Label_fecha_recepción">Fecha Recepción:</string>
+    <string name="Label_fecha_vencimiento">Fecha vencimiento:</string>
+    <string name="Label_usuario">Usuario que ingresa:</string>
+    <string name="Label_proveedor">Nombre Proveedor:</string>
+    <string name="Label_observaciones">Observaciones:</string>
+    <string name="btn_ingreso">Consultar</string>
+    <string name="title_activity_ingresar_proveedor">Activity_ingresarProveedor</string>
+</resources>

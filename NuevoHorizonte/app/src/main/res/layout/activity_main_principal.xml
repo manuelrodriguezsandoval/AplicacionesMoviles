@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="cl.inacap.nuevohorizonte.MainPrincipal">
+
+    <TextView
+        android:id="@+id/tp_titulo_aplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini-market Nuevo Horizonte"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:gravity="center"
+        android:text="Seleccione acción a realizar"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/btn_usuarios"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.09"
+        android:background="@android:color/black"
+        android:backgroundTint="@android:color/background_light"
+
+        android:gravity="center"
+        android:text="Ingresar Usuario"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+
+        android:id="@+id/btn_Proveedor"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/black"
+        android:backgroundTint="@android:color/background_light"
+        android:gravity="center"
+        android:text="Ingresar Proveedor"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+
+        android:id="@+id/btn_recepción"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.06"
+        android:background="@android:color/black"
+        android:backgroundTint="@android:color/background_light"
+        android:gravity="center"
+        android:text="Recepción"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/btn_recepciones"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/black"
+        android:backgroundTint="@android:color/background_light"
+        android:gravity="center"
+        android:text="Buscar Recepciones"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

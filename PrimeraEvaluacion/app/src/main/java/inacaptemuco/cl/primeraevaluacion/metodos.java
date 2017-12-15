@@ -1,5 +1,7 @@
 package inacaptemuco.cl.primeraevaluacion;
 
+import android.content.Context;
+
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -9,7 +11,8 @@ import java.util.GregorianCalendar;
 
 public class Metodos {
 
-    public String antiguedad(int anioRecibido) {
+
+    public String calcularAntiguedad(int anioRecibido) {
 
         String antiguo;
         Calendar fecha = new GregorianCalendar();
@@ -29,7 +32,7 @@ public class Metodos {
         return antiguo;
     }
 
-    public String seguro(int anioRecibido) {
+    public String calcularSeguro(int anioRecibido) {
 
         String asegurable;
         Calendar fecha = new GregorianCalendar();
@@ -44,7 +47,7 @@ public class Metodos {
         return asegurable;
     }
 
-    public String MostrarValorSeguro(int ufRecibida, int anioRecibido) {
+    public String calcularValorSeguro(int ufRecibida, int anioRecibido) {
 
         Calendar fecha = new GregorianCalendar();
 
@@ -67,4 +70,5 @@ public class Metodos {
 
 
     }
+
 }
