@@ -132,8 +132,8 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <Spinner
-            android:id="@+id/spinner_usuario"
+        <EditText
+            android:id="@+id/txt_usuario"
             android:layout_width="302dp"
             android:layout_height="36dp"
             android:layout_marginLeft="0dp"
@@ -153,8 +153,8 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <Spinner
-            android:id="@+id/spinner_proveedor"
+        <EditText
+            android:id="@+id/txt_proveedor"
             android:layout_width="304dp"
             android:layout_height="35dp"
             android:layout_marginLeft="0dp"

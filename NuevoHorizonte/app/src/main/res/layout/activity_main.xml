@@ -80,8 +80,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/background_light"
-            android:clickable="true"
-            android:focusable="false"
             android:hint="formato dd/mm/año" />
 
         <TextView
@@ -100,8 +98,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/background_light"
-            android:clickable="true"
-            android:focusable="false"
             android:hint="formato dd/mm/año" />
 
         <TextView
@@ -165,6 +161,13 @@
             android:background="@android:color/background_light"
             android:textColor="@android:color/holo_blue_dark"
             android:textSize="18sp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_resultado"
+            android:layout_weight="0.00" />
 
         <Button
             android:id="@+id/btn_ingreso"
